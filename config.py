@@ -10,12 +10,12 @@ API_ID = int(os.environ.get("API_ID", "28359058"))
 API_HASH = os.environ.get("API_HASH", "7f0d13f62ddd92587f45f049503348c4")
 
 # Your Owner / Admin Id For Broadcast 
-ADMINS = int(os.environ.get("ADMINS", "6429784217"))
+ADMINS = int(os.environ.get("ADMINS", "7959115399"))
 
 # Your Mongodb Database Url
 # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_URI = os.environ.get("DB_URI", "mongodb+srv://rishiskd2005:yz8E5V7Uxh8P9M8o@cluster0.mfvzfjj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
-DB_NAME = os.environ.get("DB_NAME", "vjsavecontentbot")
+DB_URI = os.environ.get("DB_URI", "mongodb+srv://rishiskd2005:rishi8709@cluster0.ffairxq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # Warning - Give Db uri in deploy server environment variable, don't give in repo.
+DB_NAME = os.environ.get("DB_NAME", "rishi99")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
 ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
